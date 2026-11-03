@@ -16,7 +16,7 @@ Connect Enterprise (ACE) v13.x en Windows, utilizando:
 
 ## 2. Consideraciones según la versión de ACE Toolkit
 
-Antes de comenzar, identifica la versión de **ACE Toolkit** instalada.
+Antes de comenzar, identifica la versión de **ACE Toolkit** y de **ACE Runtime** instalados.
 
 Abre **IBM ACE Command Console** o una ventana de comandos en la que
 esté disponible el perfil de ACE y ejecuta:
@@ -35,7 +35,7 @@ No supongas que la versión del runtime y la del Toolkit son iguales;
 es mejor verificar.
 
 Para esta configuración es importante distinguir la versión del Toolkit
-de la versión del runtime.
+de la versión del runtime, ya que el toolkit es quien tiene ajustes en el uso del workspace según la versión.
 
 | Versión de ACE Toolkit | ACE Developer Mode | ACE FlowPilot |
 |---|---|---|
